@@ -1,0 +1,41 @@
+.q-header {
+    background: url('../img/header/bg.jpg') center center/cover no-repeat;
+    min-height: 680px;
+
+}
+
+.q-header-top {
+    &__logo-wrapper {
+        flex-shrink: 1;
+        padding: 0;
+        width: 95px;
+        height: 99px;
+    }
+
+    &__logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    &--padding {
+        padding-top: 23px;
+        padding-bottom: 10px;
+    }
+}
+
+.q-header-top-menu {
+    padding: 0;
+    margin-left: 40px;
+    margin-right: 50px;
+    display: flex;
+
+    &__item{
+        padding: 5px 12px 8px 10px ;
+    }
+    &__link{
+        font: normal 15px/1.13 Roboto, sans-serif;
+        color: $color-font-main;
+        
+    }
+}
+

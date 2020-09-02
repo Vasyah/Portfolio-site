@@ -1,0 +1,23 @@
+@import 'variables.scss';
+
+@import 'pages/header.scss';
+
+body{
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    color: $color-font-main;
+    display: block;
+    text-decoration: none;
+
+    &:hover{
+        color: $color-font-submain;
+    }
+}
