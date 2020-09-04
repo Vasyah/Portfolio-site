@@ -1,2 +1,12 @@
 $color-font-main: #fff;
 $color-font-submain: #ec644b;
+
+//  grid.scss
+
+$media-sm-var: 575.98px;
+$media-md-var: 767.98px;
+$media-lg-var: 991.98px;
+$media-xl-var: 1199.98px;
+
+// for adaptive images
+$ratio-16-9: 56.25%;

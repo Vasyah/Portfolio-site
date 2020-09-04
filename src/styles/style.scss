@@ -1,6 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
 @import 'variables.scss';
 
+@import 'mixin/media.scss';
+
+@import 'grid/grid.scss';
+
+@import 'common/common.scss';
+
 @import 'pages/header.scss';
+
+@import 'pages/promo.scss';
 
 body{
     font-family: 'Roboto' sans-serif;
@@ -13,11 +25,6 @@ ul{
 }
 
 a{
-    color: $color-font-main;
     display: block;
     text-decoration: none;
-
-    &:hover{
-        color: $color-font-submain;
-    }
 }

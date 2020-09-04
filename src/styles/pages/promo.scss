@@ -1,0 +1,70 @@
+.q-promo {
+    margin-bottom: 82px;
+    text-align: center;
+    line-height: 1;
+
+    &__slogan {
+        display: block;
+        /* Style for "Global Opt" */
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        color: #ec644b;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+
+    &__subtitle {
+        color: #ffffff;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 38px;
+    }
+
+    &__divider-container {
+        max-width: 810px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 27px;
+        position: relative;
+        padding-left: 36%;
+        padding-right: 36%;
+        &::before,
+        &:after {
+            position: absolute;
+            content: "";
+            display: block;
+            width: calc(50% - 12px);
+            height: 2px;
+            background: #fff;
+            transform: translate(0,-50%);
+        }
+        &::before{
+            left: 0;
+            top: 50%;
+        }
+        &::after{
+            right: 0;
+            top: 50%;
+        }
+    }
+
+    &__divider {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}

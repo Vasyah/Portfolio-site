@@ -1,0 +1,32 @@
+// миксин для создания медиазапросов
+// используем ширины
+// 575.98 px
+// 767.98 px
+// 991.98 px
+// 1199.98 px
+// custom
+
+
+@mixin media_576(){
+    @media (min-width: $media-sm-var){
+        @content;
+    }
+}
+
+@mixin media_768(){
+    @media (min-width: $media-md-var){
+        @content;
+    }
+}
+
+@mixin media_992(){
+    @media (min-width: $media-lg-var){
+        @content;
+    }
+}
+
+@mixin media_1200(){
+    @media (min-width: $media-xl-var){
+        @content;
+    }
+}

@@ -1,0 +1,23 @@
+// пробуем сделать контейнеры для mobile-frist
+.container-mine{
+    padding: 0 15px;
+    height: 500px;
+    background-color: coral;
+
+    @include media_576{
+        max-width: 540px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    @include media_768{
+        max-width: 720px;
+    }
+    @include media_992{
+        max-width: 960px;
+    }
+    @include media_1200{
+        max-width: 1140px;
+    }
+}
+
